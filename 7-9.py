@@ -13,8 +13,6 @@ def chislonaoborot(x):
     else:
         print("Обратное число: " + str(d * -1))
     return ""
-
-
 try:
     x = int(input("Введите целое число: "))
     print(chislonaoborot(x))
